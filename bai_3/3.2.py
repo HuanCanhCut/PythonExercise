@@ -1,14 +1,16 @@
+from regex import floatRegex
+
 while(True):
-    firstParam = input('Nhập vào tham số thứ nhất: ').strip()
-    lastParam = input('Nhập vào tham số thứ hai : ').strip()
-    if (firstParam.isdigit()) and (lastParam.isdigit()) :
+    a = input('Nhập vào tham số thứ nhất: ').strip()
+    b = input('Nhập vào tham số thứ hai : ').strip()
+    if (floatRegex(a)) and (floatRegex(b)) :
         
         # hàm tính toán
-        def resolve (first, last):
-            result = -float(last) / float(first)
+        def resolve (a, b):
+            result = -float(b) / float(a)
             return result
         
-        print(f'Nghiệm của phương trình {firstParam}x + {lastParam} là : {resolve(firstParam, lastParam)}')
+        print(f'Nghiệm của phương trình {a}x + {b} là : {resolve(a, b)}')
         break
     else : 
         print('Vui lòng nhập các tham số là một số nguyên')     

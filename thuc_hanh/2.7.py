@@ -10,7 +10,7 @@ while(True):
     c = input('Vui lòng nhập vào tham số thứ ba : ').strip()
 
     if re.fullmatch(regex, a) and  re.fullmatch(regex, b) and  re.fullmatch(regex, c) :
-        # ép kiểu về số thực
+        # ép kiểu từ chuỗi về số thực
         a = float(a)
         b = float(b)
         c = float(c)

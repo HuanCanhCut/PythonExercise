@@ -1,8 +1,8 @@
 import re
 
-hoTen = input('Nhập tên của chủ hộ')
+hoTen = input('Nhập tên của chủ hộ: ')
 
-# biểu thức chính quy kiểm tra xem giá trị nhập vào có phải là số thực lớn hơn 0 hay không
+# biểu thức chính quy kiểm tra xem giá trị nhập vào có phải là số thực và lớn hơn 0 hay không
 regex = r'^(?:0|[1-9]\d*)(?:\.\d+)?$'
 
 
@@ -27,3 +27,5 @@ elif (soKW >= 61 and soKW <= 160):
 else :
     soKWvuot = soKW - 160
     soTien = 60 * 5 + 100 * 8 + soKWvuot * 10
+
+print(f'Số tiền điện mà chủ hộ: {hoTen} phải trả là : {int(soTien)}đ')

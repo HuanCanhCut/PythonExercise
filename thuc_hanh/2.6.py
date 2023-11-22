@@ -28,4 +28,4 @@ else :
     soKWvuot = soKW - 160
     soTien = 60 * 5 + 100 * 8 + soKWvuot * 10
 
-print(f'Số tiền điện mà chủ hộ: {hoTen} phải trả là : {int(soTien)}đ')
+print(f'Số tiền điện mà chủ hộ: {hoTen} phải trả là : {soTien}đ')

@@ -1,5 +1,5 @@
 ## DOWNLOAD CODE
 
 ```bash
-https://github.com/HuanCanhCut/PythonExercise.git
+git clone https://github.com/HuanCanhCut/PythonExercise.git
 ```

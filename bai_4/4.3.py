@@ -9,4 +9,4 @@ gioMoi = tongSoGiay // 3600
 phutMoi = (tongSoGiay - (gioMoi * 3600)) // 60
 giayMoi = (tongSoGiay - (gioMoi * 3600) - (phutMoi * 60))
 
-print(f'Thời gian mới là : {gioMoi}:{phutMoi}:{giayMoi}')
+print(f'Thời gian mới là : {int(gioMoi)}:{int(phutMoi)}:{int(giayMoi)}')

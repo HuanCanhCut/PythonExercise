@@ -1,6 +1,6 @@
 from datetime import  datetime
 
-date = datetime.now
+date = datetime.now()
 
 isLoop = True
 

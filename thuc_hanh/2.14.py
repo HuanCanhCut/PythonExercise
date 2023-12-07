@@ -69,4 +69,4 @@ while True:
         print(f'Tổng các ký tự là : {total}')
         break
     else :
-        print('Vui lòng nhập n > 0')
+        print('Vui lòng nhập n > 0')  

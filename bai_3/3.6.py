@@ -28,7 +28,7 @@ data = [
 ]
 
 studentCode = input('Nhập vào mã sinh viên: ')
-fullName = input('Nhập vào tên đầy đủ: ')
+fullName =  input('Nhập vào tên đầy đủ: ')
 
 while(True):
     training = input('Nhập vào điểm rèn luyện: ')

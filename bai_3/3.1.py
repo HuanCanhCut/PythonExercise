@@ -1,5 +1,5 @@
 while(True):
-    num = input('Nhập vào 3 số bất kì: ').strip()
+    num = input(__prompt='Nhập vào 3 số bất kì: ').strip()
     numArr = num.split(' ')
     if len(numArr) == 3 :
         for i in numArr :

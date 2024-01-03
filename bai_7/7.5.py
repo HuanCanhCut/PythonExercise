@@ -1,4 +1,3 @@
-import pandas as pd
 
 # Hàm tính tiền điện
 def handleElectricityBills(kiloWatage):
@@ -70,7 +69,7 @@ while True:
 
 # Mở file và viết dữ liệu
 for buildingNumber in buildingNumbers:
-    file_path = f'{buildingNumber}.txt'
+    file_path = f'./{buildingNumber}.txt'
     with open(file_path, 'a', encoding='utf-8') as file:
         # Viết dòng tiêu đề nếu file rỗng
         if file.tell() == 0:
